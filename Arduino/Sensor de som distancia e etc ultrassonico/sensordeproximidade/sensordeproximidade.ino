@@ -1,6 +1,6 @@
 int ledR = 13;
-int ledG = 12;
-int ledY = 11;
+int ledG = 11;
+int ledY = 12;
 int x = 0;
 int trigger = 7;
 int echo = 8;
@@ -15,7 +15,7 @@ void setup() {
   pinMode(echo, INPUT);
   Serial.begin(9600);
 }
-
+ 
 void loop() {
 // for(x = 0; x < 3; x++) {
 //   digitalWrite(ledR, HIGH);
@@ -61,4 +61,9 @@ void loop() {
     digitalWrite(ledG, LOW);
   }
   Serial.println(dist);
+
+
 }
+
+
+
